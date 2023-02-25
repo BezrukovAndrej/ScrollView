@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    // MARK: IBOutlet
+    // MARK: - IBOutlet
     @IBOutlet private weak var collectionView: UICollectionView!
 
     override func viewDidLoad() {
@@ -33,6 +33,7 @@ class ViewController: UIViewController {
     }
 }
 
+    // MARK: - Collection View 
 extension ViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         5
